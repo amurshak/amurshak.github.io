@@ -1,3 +1,3 @@
 # amurshak.github.io
 
-A software development profile.
+Welcome to my portfolio.
