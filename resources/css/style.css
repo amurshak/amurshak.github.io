@@ -568,9 +568,19 @@ video {
 }
 
 /* Item */
-.item {
-  text-align: justify;
-  text-justify: inter-word;
-  word-spacing: 10px;
-  
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers the items horizontally */
+  align-items: center; /* centers the items vertically */
+  justify-content: space-between;
+}
+
+.line {
+  flex: 0 0 calc(33.33% - 20px); /* sets the width of each item to one third of the container minus the margin */
+  margin: 5px; /* adds a margin between items */
+  height: 25px; /* sets the height of each item */
+  padding-left: 70px;
+  margin-bottom: 5% !important;
 }
