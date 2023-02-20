@@ -584,3 +584,8 @@ video {
   padding-left: 70px;
   margin-bottom: 5% !important;
 }
+
+.about-btn {
+  width: 100%;
+  text-align: center;
+}
