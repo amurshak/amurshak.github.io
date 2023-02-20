@@ -317,6 +317,8 @@ header {
 }
 .about-me p {
   margin: 10%;
+
+
 }
 
 /*////////////////////*/
@@ -563,4 +565,12 @@ video {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+}
+
+/* Item */
+.item {
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: 10px;
+  
 }
