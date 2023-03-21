@@ -4,9 +4,9 @@ $(document).ready(function() {
     /* for stick navigation */
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
-            $('nav').addClass('sticky');
-        } else {
             $('nav').removeClass('sticky');
+        } else {
+            $('nav').addClass('sticky');
         }
     }, {
         offset: '60px;'
