@@ -5,7 +5,7 @@
               
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300&display=swap" rel="stylesheet">
@@ -17,14 +17,18 @@
             
             <nav class="sticky">
                 <div class="row">
-                    <!-- <a href="resources/img/Dev Resume (Summer 2021).pdf"> <img src="resources/img/CVdark.png" alt="Portfolio Logo White" class="logo"></a> -->
-                    <a href="mailto:amurshak@gmail.com"><img src="resources/img/icons8-mail-100.png" alt="Portfolio Logo" class="logo-black"></a>
-                    <ul class="main-nav">
-             
-                        <li><a href="https://github.com/amurshak" >Github</a></li>
-                        <!-- <li><a href="https://www.youtube.com/@alexagora_">Youtube</a></li> -->
-
-                    </ul>
+                    <div class="nav-container">
+                        <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="main-nav">
+                            <li><a href="https://alexmurshak.com"> Substack</a></li>
+                            <li><a href="https://www.youtube.com/@alexmurshak">Youtube</a></li>
+                            <li><a href="https://github.com/amurshak" >Github</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             
@@ -32,23 +36,18 @@
                 <source src="resources/css/img/mountain.mp4" type="video/mp4">
               </video>
             <div class="hero-text-box" >
-                <div class="row">
-                    <div class="col span-2-of-4">
-                    <img src="resources/img/hands.jpeg"/>
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="resources/img/hands.jpeg"/>
                     </div>
-                    <div class="col span-2-of-4">
-                    <h1>Alex Murshak</h1>
-                 
-                    <p class="long-copy">Software + Philosophy</p> <br /><p > I got into software because of its capacity to build great things.</p> <p></p>
+                    <div class="hero-text">
+                        <h1>Alex Murshak</h1>
+                        <p class="hero-subtitle">AI Engineer & Founder</p>
+                        <p class="hero-description">I build AI systems and study how technology reshapes institutions.</p>
                     </div>
                 </div>
-               <div class="row">
-                   <div class='col span-1-of-2'>
-                        <a class="btn btn-full js--scroll-to-plans" href="#about-me">About</a>
-                    </div>
-                    <div class='col span-1-of-2'>
-                        <a class="btn btn-full js--scroll-to-start" href="https://www.linkedin.com/in/alexmurshak"> Work </a>
-                    </div>
+                <div class="hero-button">
+                    <a class="btn btn-full js--scroll-to-plans" href="#about-me">About</a>
                 </div>
             </div>    
         
@@ -59,47 +58,25 @@
                 <div class="col span-1-of-2 box">
                     <h2>About</h2>
                     <p class="long-copy">
-                        I work on technology and philosophy.
+                        I'm interested in how technology changes our relationship to power, each other, and ourselves.
                         <br /><br />
-                        Ever since making games on my TI-85 in middle school, I knew software was a special domain
-                        for unlocking human ingenuity.
-                        Then, I studied political philosophy in college to learn about the kind of systems
-                        that foster greater human flourishing.
-                        I combine these core interests as a practicioner-theoretician.
+                        I build systems for applying artificial intelligence to problems of governance.
                         <br /><br />
-                        I've been building applications with LLMs to perform vector search, text summarization, and text-generation for a popular finance and tech blog since June 2023. 
-                        I've primarily used <a href="https://www.trychroma.com/">Chromadb</a>, <a href="https://www.langchain.com/">Langchain</a>, <a href="https://openai.com/">OpenAI</a>, and open source foundation models like <a href="https://ai.meta.com/llama/">Llama2</a>.
-                        <br ><br />
-                        Previously, I worked for
-                        <a href="https://www.venturit.com/">Venturit</a>, where I designed and built APIs and backends for biomedical applications.
+                        I explore these themes through <a href="https://alexmurshak.com/">Hacking State</a>, a podcast and newsletter where I write, speak and interview founders, researchers, artists, and intellectuals about technology's impact on society and power.
                         <br /><br />
-                        You can find my more philosophical work on <a href="https://hackingstate.substack.com/">Hacking State</a>,
-                        a long-form interview podcast and Substack; and on <a href="https://www.youtube.com/@alexmurshak">Youtube</a>. I also had a previous show, <a href="https://open.spotify.com/show/5xfgHAlhswC6PWlTZC5S58?si=9c8fba7e5bd64b8f">
-                        Agora Politics</a>, spanning 42 episodes over two years.
-                        <br /><br />
-                        For academic work, see my <a href="https://michiganstate.academia.edu/AlexMurshak">Academia</a> page.
-                        <br /><br />
-                        For business inquiries, please see my <a href="https://linkedin.com/in/alexmurshak">LinkedIn</a>,<br />
-                        or <a href="mailto:amurshak@gmail.com">email</a> me directly.
+                        Education: B.A. Political Theory, Michigan State University
+                        <br /><br />                    
                     </p>
                 </div>
                 <div class="col span-1-of-2 box">
-                    <div class="row" class="container">
-                        <h3>Languages & Tooling</h3>
-                        <p class="line">LLMs &emsp; &emsp; Langchain &emsp;&emsp;Chromadb</p>
-                        <p class="line">Python&emsp;&emsp;JavaScript&emsp;&emsp;Go</p>
-                        <p class="line">Flask&emsp;&emsp;&emsp;React &emsp; &emsp; &emsp; Gin</p>
-                        <p class="line">Postgres &emsp;  Node&emsp;&emsp;&emsp;&emsp;MySQL </p>
-                        <p class="line"> AWS&emsp;&emsp;&emsp;Docker&emsp; &emsp;&emsp;Linux</p>
-                    </div>
-                    <div class="row">
-                        <h3>Education</h3>
-                            <p> 
-                                <span style="font-style: italic; font-weight: normal;">B.A.</span>, Political Theory and Constitutional Democracy, <br>
-                                <a href="https://jmc.msu.edu/current-students/academics/majors-minors/ptcd.html/">James Madison College</a> @ Michigan State University,<br>
-                                2020
-                            </p>
-                    </div>
+                    <h2>Experience</h2>
+                    <p class="long-copy">Currently building <a href="https://lawgiver.ai/">Lawgiver</a>, an AI-native infrastructure for legislation and government affairs company. Our first product, <a href="https://congressmcp.lawgiver.ai/">CongressMCP</a>, is a hosted open source MCP server for interrogating legislation through natural language, serving as an interoperable platform for reasoning about, searching, interpreting, and analyzing bills, laws, and congressional activity.
+                    <br /><br />
+                    Previously, I was Head of Strategy at <a href="https://home.dry.ai/">Dry.ai</a>, leading go-to-market efforts and spearheading their Model Control Protocol (MCP) adoption campaign.
+                    <br /><br />
+                    Before that, I built AI systems as the solo engineer at <a href="https://thediff.co/">The Diff</a>, a tech and finance newsletter with over 50,000 subscribers, read by many hedge funds and finance professionals. 
+                    <br/><br />
+                    I started out at <a href="https://www.venturit.com/">Venturit</a>, a software consultancy, building applications for biomedical and first responders.</p>
                 </div>
             </div>
             
@@ -108,9 +85,9 @@
         <section class="section-goodbye">
             <div class="row">
             </div>
-            <div class="row">
+            <div class="row" style="text-align: center;">
                 
-                <a href="#" class="btn btn-full top-button">Top</a>
+                <a href="https://x.com/distantpathos" class="btn btn-full">Contact</a>
                 
             </div>
         </section>
@@ -125,15 +102,16 @@
                 </div>
                 <div class="col-span-1-of-2">
                     <ul class="social-links">
-                        <li><a href="https://github.com/amurshak"><i class="ion-social-github"></i></a></li>
-                        <li><a href="https://linkedin.com/in/alexmurshak"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="https://github.com/amurshak"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://linkedin.com/in/alexmurshak"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://x.com/distantpathos"><i class="fab fa-x-twitter"></i></a></li>
                     </ul>
                 
                 </div>
             </div>
             <div class="row">
                 <p>
-                    Copyright &copy; 2023 by Alex Murshak. All Rights Reserved.
+                    Copyright &copy; 2025 by Alex Murshak. All Rights Reserved.
                 </p>
             </div>
             
@@ -151,14 +129,6 @@
 
     </body>    
 </html>
-
-<!--
-
-
-
-
--->
-
 
 
 
